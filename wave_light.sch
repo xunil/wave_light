@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5ED5295D
-P 3200 1300
-F 0 "J1" H 3308 1481 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 3308 1390 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3200 1300 50  0001 C CNN
-F 3 "~" H 3200 1300 50  0001 C CNN
-	1    3200 1300
-	1    0    0    -1  
+P 3200 1400
+F 0 "J1" H 3200 1100 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3200 1200 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3200 1400 50  0001 C CNN
+F 3 "~" H 3200 1400 50  0001 C CNN
+	1    3200 1400
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:CP1 C1
@@ -122,94 +122,6 @@ F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4340 4090 50  0
 F 3 "~" H 4300 4100 50  0001 C CNN
 	1    4300 4100
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J2
-U 1 1 5ED5C3A8
-P 4850 1300
-F 0 "J2" H 4878 1276 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4878 1185 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4850 1300 50  0001 C CNN
-F 3 "~" H 4850 1300 50  0001 C CNN
-	1    4850 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J3
-U 1 1 5ED5D0A8
-P 4850 1700
-F 0 "J3" H 4878 1676 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4878 1585 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4850 1700 50  0001 C CNN
-F 3 "~" H 4850 1700 50  0001 C CNN
-	1    4850 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J4
-U 1 1 5ED5D708
-P 4850 2100
-F 0 "J4" H 4878 2076 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4878 1985 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4850 2100 50  0001 C CNN
-F 3 "~" H 4850 2100 50  0001 C CNN
-	1    4850 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J5
-U 1 1 5ED5DCEC
-P 4850 2500
-F 0 "J5" H 4878 2476 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4878 2385 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4850 2500 50  0001 C CNN
-F 3 "~" H 4850 2500 50  0001 C CNN
-	1    4850 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J6
-U 1 1 5ED5E5A3
-P 4850 2900
-F 0 "J6" H 4878 2876 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4878 2785 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4850 2900 50  0001 C CNN
-F 3 "~" H 4850 2900 50  0001 C CNN
-	1    4850 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J7
-U 1 1 5ED5EEEE
-P 4850 3300
-F 0 "J7" H 4878 3276 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4878 3185 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4850 3300 50  0001 C CNN
-F 3 "~" H 4850 3300 50  0001 C CNN
-	1    4850 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J8
-U 1 1 5ED5FDA6
-P 4850 3700
-F 0 "J8" H 4878 3676 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4878 3585 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4850 3700 50  0001 C CNN
-F 3 "~" H 4850 3700 50  0001 C CNN
-	1    4850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J9
-U 1 1 5ED60228
-P 4850 4100
-F 0 "J9" H 4878 4076 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4878 3985 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4850 4100 50  0001 C CNN
-F 3 "~" H 4850 4100 50  0001 C CNN
-	1    4850 4100
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
@@ -433,5 +345,93 @@ F 2 "" H 7100 1200 50  0001 C CNN
 F 3 "~" H 7100 1200 50  0001 C CNN
 	1    7100 1200
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5EE00D95
+P 4850 1400
+F 0 "J2" H 4850 1100 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4600 1200 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 1400 50  0001 C CNN
+F 3 "~" H 4850 1400 50  0001 C CNN
+	1    4850 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5EE2D0D4
+P 4850 1800
+F 0 "J3" H 4850 1500 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4600 1600 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 1800 50  0001 C CNN
+F 3 "~" H 4850 1800 50  0001 C CNN
+	1    4850 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5EE2E5CE
+P 4850 2200
+F 0 "J4" H 4850 1900 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4600 2000 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 2200 50  0001 C CNN
+F 3 "~" H 4850 2200 50  0001 C CNN
+	1    4850 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5EE2E5D8
+P 4850 2600
+F 0 "J5" H 4850 2300 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4600 2400 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 2600 50  0001 C CNN
+F 3 "~" H 4850 2600 50  0001 C CNN
+	1    4850 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5EE2FC9C
+P 4850 3000
+F 0 "J6" H 4850 2700 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4600 2800 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 3000 50  0001 C CNN
+F 3 "~" H 4850 3000 50  0001 C CNN
+	1    4850 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5EE2FCA6
+P 4850 3400
+F 0 "J7" H 4850 3100 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4600 3200 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 3400 50  0001 C CNN
+F 3 "~" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 5EE2FCB0
+P 4850 3800
+F 0 "J8" H 4850 3500 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4600 3600 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 3800 50  0001 C CNN
+F 3 "~" H 4850 3800 50  0001 C CNN
+	1    4850 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 5EE2FCBA
+P 4850 4200
+F 0 "J9" H 4850 3900 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4600 4000 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 4200 50  0001 C CNN
+F 3 "~" H 4850 4200 50  0001 C CNN
+	1    4850 4200
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
